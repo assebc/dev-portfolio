@@ -18,8 +18,8 @@ export const DefaultOverlayContent: FC<IDefaultOverlayContentProps> = ({
             </Heading>
 
             <Buttons>
-                <button>Custom Order</button>
-                <button className="white">Existing Inventory</button>
+                <button onClick={() => window.location.href = '#Contact Me'}>Contact Me</button>
+                <button className="white" onClick={() => window.location.href = '#My Recent Work'}>Projects</button>
             </Buttons>
         </Container>
     );
